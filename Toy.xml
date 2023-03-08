@@ -1,45 +1,82 @@
 <?xml version="1.0" encoding="utf-8" ?> 
-
 <toys>
-    <toy>
-        <name>Ben 10 Omniverse Aliens
-            <category>Action Figures
-                <description>A collection of Aliens of Ben 10 Omniverse with a good quality</description>
-                        <Ben10_Alien>BigChill
-                                <form_type>Ultimate Bigchill</form_type>
-                                <form_type>Regular Bigchill</form_type>
-                                <variety_color>Blue</varient_color>
-                                <varient_color>Red</varient_color>
-                        </Ben10_Alien>
-                            <price>99.99</price>
-            </category>
-        </name>
-        
-    </toy>
-     <toy>
-        <sub_child>
-        
-        </sub_child>
-    </toy>
-     <toy>
-        <sub_child>
-        
-        </sub_child>
-    </toy>
-     <toy>
-        <sub_child>
-        
-        </sub_child>
-    </toy>
-     <toy>
-        <sub_child>
-        
-        </sub_child>
-    </toy>
-     <toy>
-        <sub_child>
-        
-        </sub_child>
-    </toy>
-    
+   <toy>
+    <name>Ben 10 BigChill Alien</name>
+    <category>Action Figures</category>
+    <description>A collection of Aliens of Ben 10 Omniverse with a good quality</description>
+    <price>$39.99</price>
+    <age_range>5-99</age_range>
+    <details>
+      <form_type>Ultimate BigChill</form_type>
+      <color>Red</color>
+      <features>
+        <has_wings>true</has_wings>
+        <has_accessories>true</has_accessories>
+        <has_movability>true</has_movability>
+      </features>
+    </details>
+  </toy>
+
+  <toy>
+    <name>Barbie Doll</name>
+    <brand>Mattel</brand>
+    <price>$19.99</price>
+    <age_range>3-10</age_range>
+    <details>
+      <material>Plastic</material>
+      <color>Pink</color>
+      <features>
+        <has_hair>true</has_hair>
+        <has_accessories>true</has_accessories>
+        <has_movability>true</has_movability>
+      </features>
+    </details>
+  </toy>
+
+  <toy>
+    <name>LEGO Classic</name>
+    <brand>LEGO</brand>
+    <price>$29.50</price>
+    <age_range>6-99</age_range>
+    <details>
+      <pieces>500</pieces>
+      <color>Multi</color>
+      <features>
+        <has_instructions>true</has_instructions>
+        <has_interlocking_parts>true</has_interlocking_parts>
+        <has_unlimited_creative_potential>true</has_unlimited_creative_potential>
+      </features>
+    </details> 
+</toys>
+
+  <toy>
+    <name>Racing Cars with Track Sets</name>
+    <brand>Disney</brand>
+    <price>$25.99</price>
+    <age_range>5-14</age_range>
+    <details>
+      <track_pieces>8</track_pieces>
+      <material>Plastic</material>
+      <features>
+        <has_removable_wheels>true</has_removable_wheels>
+        <has_controllers>true</has_tcontrollers>
+        <has_equipments>true</has_equipments>
+      </features>
+    </details> 
+</toys>
+
+ <toy>
+    <name>Remote Control Dinasour</name>
+    <brand>Temi</brand>
+    <price>$30</price>
+    <age_range>4-8</age_range>
+    <details>
+      <toy_figure_type>Interactive Gaming Figure</toy_figure_type>
+      <material>Acrylonitrile Butadiene Styrene</material>
+      <features>
+        <has_rechargeable>true</has_rechargeable>
+        <has_light_sounds>true</has_light_sounds>
+        <has_accessories>true</has_accessories>
+      </features>
+    </details> 
 </toys>
