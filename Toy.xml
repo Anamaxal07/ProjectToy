@@ -2,11 +2,19 @@
 
 <toys>
     <toy>
-        <sub_child>
-            <sub_element1>
-            <sub_element2>
-            <sub_element3>
-        </sub_child>
+        <name>Ben 10 Omniverse Aliens
+            <category>Action Figures
+                <description>A collection of Aliens of Ben 10 Omniverse with a good quality</description>
+                        <Ben10_Alien>BigChill
+                                <form_type>Ultimate Bigchill</form_type>
+                                <form_type>Regular Bigchill</form_type>
+                                <variety_color>Blue</varient_color>
+                                <varient_color>Red</varient_color>
+                        </Ben10_Alien>
+                            <price>99.99</price>
+            </category>
+        </name>
+        
     </toy>
      <toy>
         <sub_child>
