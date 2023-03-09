@@ -1,82 +1,120 @@
 <?xml version="1.0" encoding="utf-8" ?> 
-<toys>
-   <toy>
-    <name>Ben 10 BigChill Alien</name>
-    <category>Action Figures</category>
-    <description>A collection of Aliens of Ben 10 Omniverse with a good quality</description>
-    <price>$39.99</price>
-    <age_range>5-99</age_range>
-    <details>
-      <form_type>Ultimate BigChill</form_type>
-      <color>Red</color>
-      <features>
-        <has_wings>true</has_wings>
-        <has_accessories>true</has_accessories>
-        <has_movability>true</has_movability>
-      </features>
-    </details>
-  </toy>
 
-  <toy>
-    <name>Barbie Doll</name>
-    <brand>Mattel</brand>
-    <price>$19.99</price>
-    <age_range>3-10</age_range>
-    <details>
-      <material>Plastic</material>
-      <color>Pink</color>
-      <features>
-        <has_hair>true</has_hair>
-        <has_accessories>true</has_accessories>
-        <has_movability>true</has_movability>
-      </features>
-    </details>
-  </toy>
+<toys>   
+    <type = "Action Figures Toys">
+      <name>Ben 10 Omniverse</name>
+      <brand>Hasbro<brand>
+      <action_figure_alien_forms>
+          <alien>HeatBlast</alien>
+            <price>20$</price>
+            <stocks>10</stocks>
+          <alien2>Alien X</alien2>
+            <price>50$</price>
+            <stocks>15</stocks>
+          <alien3>Automix</alie3>
+          <alien4>Whampire</alien4>
+      </alien_form_action_figure>
+      <available_color>
+          <color>Blue</color>
+          <color2>Red</color2>
+          <color3>White</color3>
+      </available_color>
+      <age_range>5-99</age_range>
+    </type>
 
-  <toy>
-    <name>LEGO Classic</name>
-    <brand>LEGO</brand>
-    <price>$29.50</price>
-    <age_range>6-99</age_range>
-    <details>
-      <pieces>500</pieces>
-      <color>Multi</color>
-      <features>
-        <has_instructions>true</has_instructions>
-        <has_interlocking_parts>true</has_interlocking_parts>
-        <has_unlimited_creative_potential>true</has_unlimited_creative_potential>
-      </features>
-    </details> 
-</toys>
+    <type = "Doll Toys">
+      <name>Barbie Doll</name>
+      <brand>Mattel</brand>
+      <barbie_doll_body_types>
+        <body_type>Original</body_type>
+        <body_type2>Tall</body_type2>
+        <body_type3>Petite</body_type3>
+        <body_type4>Curvy</body_type4>
+      </barbie_doll_body_types>
+      <available_color_hair>
+        <color>Blonde</color>
+        <color2>Black</color2>
+        <color3>Pink</color3>
+      </available_color_hair>
+      <available_skin_tone>
+        <skin_type>Brown<skin_type>
+        <skin_type2>White<skin_type2>
+      </available_skin_tone>
+      <age_range>5-12</age_range>
+    </type>
 
-  <toy>
-    <name>Racing Cars with Track Sets</name>
-    <brand>Disney</brand>
-    <price>$25.99</price>
-    <age_range>5-14</age_range>
-    <details>
-      <track_pieces>8</track_pieces>
-      <material>Plastic</material>
-      <features>
-        <has_removable_wheels>true</has_removable_wheels>
-        <has_controllers>true</has_tcontrollers>
-        <has_equipments>true</has_equipments>
-      </features>
-    </details> 
-</toys>
+    <type = "Construction Toys">
+      <name>LEGO Sets</name>
+      <brand>LEGO A/S</brand>
+      <lego_different_types>
+        <lego_type>City Set</lego_type>
+        <lego_type2>Batman Set</lego_type2>
+        <lego_type3>Avengers Set</lego_type3>
+      <lego_different_types>
+      <peaces_per_sets>
+        <pieces>200</pieces>
+        <pieces2>300</pieces2>
+        <pieces3>500</pieces3>
+      </peaces_per_sets>
+      <lego_promo_edition>
+        <promo>Batman + Avengers Set</promo>
+          <price>$50</price>
+        <promo2>City + Batman Set</promo2>
+          <price>$30</price>
+        <promo3>Avengers + City Set</promo3>
+          <price>$60</price>
+      </lego_promo_edition>
+      <age_range>6-99</age_range>
+    </type>
 
- <toy>
-    <name>Remote Control Dinasour</name>
-    <brand>Temi</brand>
-    <price>$30</price>
-    <age_range>4-8</age_range>
-    <details>
-      <toy_figure_type>Interactive Gaming Figure</toy_figure_type>
-      <material>Acrylonitrile Butadiene Styrene</material>
+    <type = "Cars and Radio Controlled">
+      <name>Track Sets with Cars</name>
+      <brand>HotWheels<brand>
+      <track_sets_bundle>
+        <bundle>3 Track Sets with 3 Cars</bundle>
+        <bundle2>2 Track Sets with 5 Cars</bundle2>
+        <bundle3>4 Track Sets with 4 Cars</bundle3>
+      </track_sets_bundle>
+      <types_of_cars>
+        <type>SuperCar<type2>
+          <available_color>White</available_color>
+          <available_color2>Black</available_color2>
+          <available_color3>Yellow</available_color3>
+          <price>$10</price>
+        <type2>MuscleCar</type2>
+        <available_color>Green</available_color>
+          <available_color2>Blue</available_color2>
+          <available_color3>Black</available_color3>
+          <price>$15</price>
+        <type3>SportsCar</type3>
+        <available_color>White</available_color>
+          <available_color2>Violet</available_color2>
+          <available_color3>Black</available_color3>
+          <price>$20</price>
+      </types_of_cars>
+      <age_range>7-15</age_range>
+    </type>
+
+    <type = "Electronic Toys">
+      <name>Remote Control Dog Dancing Programmble Robot</name>
+      <brand>Fisca</brand>
       <features>
-        <has_rechargeable>true</has_rechargeable>
-        <has_light_sounds>true</has_light_sounds>
-        <has_accessories>true</has_accessories>
+        <function>Voice Controller</function>
+        <function2>Touch Controller</function2>
+        <function3>Button Click Controller</function3>
+        <key_features>Sing<key_features>
+        <key_features2>Programming<key_features2>
+        <key_features3>STUNT<key_features3>
+        <key_features4>SpeechControl<key_features4>
       </features>
-    </details> 
-</toys>
+      <varient_colors>
+        <color>White and Blue<color>
+        <color2>Mint Green<color2>
+        <color3>Grey<color3>
+        <color4>Red<color4>
+        <color5>Yellow<color5>
+      <varient_colors>
+      <price>$55</price>
+      <age_range>6-99</age_range>
+    </type>
+<toys> 
